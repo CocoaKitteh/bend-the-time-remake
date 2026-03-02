@@ -1,0 +1,12 @@
++tile
+	|tile01
+	|tile02
+	|tile03
+	|bacJumpThrough
++background
+	|backgroundMiniwa
+	|backgroundMegaman4
+	|backgroundTree
+	|backgroundStage01
+	|bgTitle
+	|bgTitleOverlayShmingy
