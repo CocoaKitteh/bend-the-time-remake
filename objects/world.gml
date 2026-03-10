@@ -118,6 +118,9 @@ if room==rTitle begin
     draw_sprite(sprBGClock,0,400,304)
     draw_sprite(sprTitleA,0,400,200)
     draw_sprite(sprTitleB,0,400,304)
+    draw_set_blend_mode_ext(bm_inv_dest_color,bm_inv_src_color)
+    draw_rectangle(room_width/2,0,room_width,room_height,false)
+    draw_set_blend_mode(bm_normal)
 end
 #define KeyPress_27
 /*"/*'/**//* YYD ACTION
